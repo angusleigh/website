@@ -17,16 +17,6 @@ h2 {font-size:2.2em; color:#333; margin:0 0 5px;}
 h3 {font-size:1.6em; margin:0 0 5px 0;}
 h1,h2,h3 {color:#d06060; font-weight:400; line-height:1.2em; font-family:'Economica', sans-serif;}
 
-/*a[href$='.pdf'] {
-display:inline-block;
-line-height:18px;
-padding-left:18px;
-margin-left:2px;
-margin-right:1px;
-background:transparent url(images/pdficon_small.png) center left no-repeat;
-}
-*/
-
 a[href$='.pdf'] {
 display:inline-block;
 line-height:18px;
@@ -38,7 +28,7 @@ background:transparent url(images/pdficon_small.png) center right no-repeat;
 
 
 /* Main layout container */
-#layout {margin:40px auto 0; width:960px;}
+#layout {margin:40px auto 0; width:800px;}
 body.wider #layout {margin:40px auto 0; width:1200px;}
 
 /* Footer */
@@ -53,7 +43,7 @@ body.wider #layout {margin:40px auto 0; width:1200px;}
 /* Grid classes, fixed width, 960px with 12 columns */
 .col {float:left; margin:0 10px; overflow:hidden; float:left; display:inline;}
 .col img {max-width:100%;}
-.row {width:960px; margin:20px auto 0; overflow:hidden;}
+.row {width:800px; margin:20px auto 0; overflow:hidden;}
 .row .row {margin:0 -10px; width:auto;	display:inline-block;}
 .c1 {width:60px;}
 .c2 {width:140px;}
@@ -64,9 +54,9 @@ body.wider #layout {margin:40px auto 0; width:1200px;}
 .c7 {width:540px;}
 .c8 {width:620px;}
 .c9 {width:700px;}
-.c10 {width:780px;}
-.c11 {width:860px;}
-.c12 {width:940px;}
+.c10 {width:780px;padding-bottom:10px;}
+.c11 {width:780px;}
+.cquarter {width:25%;}
 
 /* Grid classes, fixed width, 1200px with 12 columns - add class="wider" to the <body> element to use this */
 body.wider .row {width:1200px;}
@@ -82,6 +72,7 @@ body.wider .c9 {width:880px;}
 body.wider .c10 {width:980px;}
 body.wider .c11 {width:1080px;}
 body.wider .c12 {width:1180px;}
+body.wider .c13 {width:1180px;}
 
 /* Menu list styles */
 ul.menu {list-style:none; margin:0; padding:10px 0; border-top:1px solid #333;}
